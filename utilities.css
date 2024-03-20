@@ -1,0 +1,37 @@
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: #000 solid 4px;
+    width: 20%;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background: #eb4034;
+    color: #fff;
+}
+
+.text-primary{
+    color: #eb4034;
+}
+
+#features{
+    height: 300px;
+}
+
+
+
+.bg-dark{
+    background: #eb4034;
+    color: #fff;
+}

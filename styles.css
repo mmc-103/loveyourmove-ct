@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Rubik+Burned&family=Sixtyfour&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #eb4034;
+    text-decoration: none;
+}
+
+/* h1{
+    font-weight: 400;
+    line-height: 1.2;
+} */
+
+p{
+    margin: 10px 0;
+}
+
+/* img{
+    width: 100%;
+} */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #000 solid 3px;
+    background-color: #eee;
+    color: #000;
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+    opacity: .8;
+}
+
+.logo{
+    height: 60px;
+    width: 65px;
+}
+
+.navbar a{
+    color: #eb4034;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 70px;
+}
+
+.navbar a:hover{
+   border-bottom: 4px #eb4034 solid;
+   color: #000;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar .logo {
+    font-weight: 500;
+}
+
+.hero{
+    background: url('../img/home_house.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100% ;
+    padding: 300px 20px;
+}
+
+
+.hero .content h1{
+    padding-top: 100px;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.hero .content p{
+    font-size: 23px;
+    max-width: 600px;
+    margin: 20px 0 30px;
+    font-weight: bolder;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 0, 0, 0.35);
+}
+
+.hero *{
+    z-index: 10;
+}
+
+.card-left .card-right{
+    width: 50%;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 1px;
+    height: 500px;
+    }
+
+#card-right h3{
+    font-size: 36px ;
+}
+
+#card-right p{
+    font-size: 20px;
+    padding: 50px 50px;
+    display: inline-block
+    }
+
+#features{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: #000 4px solid;
+
+}
+
+.box{
+    padding: 80px 30px;
+}
+
+/*  */
