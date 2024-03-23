@@ -25,13 +25,12 @@
     color: #eb4034;
 }
 
-#features{
-    height: 300px;
+.bg-light{
+    color: #eb4034;
+
 }
 
-
-
 .bg-dark{
-    background: #eb4034;
-    color: #fff;
+    background: #eee;
+    color: #eb4034;
 }
