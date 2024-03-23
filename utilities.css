@@ -18,6 +18,7 @@
 
 .btn:hover{
     background: #eb4034;
+    opacity: .7;
     color: #fff;
 }
 
