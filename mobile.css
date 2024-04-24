@@ -12,13 +12,12 @@
         position: fixed;
         top: 0px;
         padding: 0 30px;
-        /* opacity: ; */
+        opacity: 1;
         /* z-index: 0; */
     }
 
     .navbar a:hover{
-   background-color: #eb4034;
-   color: #fff;
+   color: #000;
 }
 
      .hero .content h1{
