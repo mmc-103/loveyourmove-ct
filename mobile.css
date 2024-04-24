@@ -16,6 +16,11 @@
         /* z-index: 0; */
     }
 
+    .navbar a:hover{
+   background-color: #eb4034;
+   color: #fff;
+}
+
      .hero .content h1{
         font-size: 40px;
     }
@@ -139,6 +144,10 @@
 
 .l-heading{
     padding-top: 100px;
+}
+
+.b{
+    color: #000;
 }
 
 
